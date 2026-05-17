@@ -1,0 +1,6 @@
+Configuration,Hidden Layers,Learning Rate,Activation,Batch Size,Train Acc,Test Acc,Test F1
+Exp 1 – Baseline,"(64,)",0.001,relu,32,1.0,0.985,0.0
+Exp 2 – Deeper (2 layers),"(128, 64)",0.001,relu,32,1.0,0.9875,0.2857
+Exp 3 – High LR (0.01),"(64,)",0.01,relu,32,1.0,0.985,0.0
+Exp 4 – Low LR (0.0001),"(64,)",0.0001,relu,32,0.9912,0.985,0.0
+"Exp 5 – tanh, batch=64","(64,)",0.001,tanh,64,1.0,0.985,0.0
